@@ -1,4 +1,12 @@
+# Fooling around
+
+- <https://www.youtube.com/watch?v=zbYBgy_ChGY>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Remarks
+
+- Images [link](https://nextjs.org/docs/pages/api-reference/components/image)
 
 ## Getting Started
 
