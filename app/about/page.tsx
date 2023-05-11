@@ -1,17 +1,12 @@
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 
-export default function Hobbies() {
+export default function About() {
     return (
-        <div>
-            <div className="container" style={{ position: 'relative' }}>
-                <h1>About Me</h1>
-                <Image
-                    src="/helm.jpg"
-                    width={400}
-                    height={433}
-                    alt="Picture of the author"
-                />
+        <main>
+            <img alt="mountain3_wide" src="/mountain3_wide.jpg" className="bg-img" />
+            <div className='container'>
+                <h1>About myself</h1>
             </div>
-        </div >
+        </main>
     )
 }

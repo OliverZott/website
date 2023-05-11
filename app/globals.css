@@ -1,18 +1,38 @@
 body {
   margin: 0rem;
+  /* background-color: #2e2d2c;
+  color: #ddd; */
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-img {
+  width: 100%;
+  /* min-height: 300px; */
+  max-height: 250px;
+  object-fit: cover;
+  /* object-fit: contain; */
+  object-position: center;
 }
 
 .container {
   padding: 1rem 1rem;
-  margin: 3rem 20%;
+  margin: 0rem 20%;
   /* background-color: rgb(230, 230, 230); */
   text-align: center;
 }
 
 .topnav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
   align-content: center;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.topnav>div {
   background-color: #333;
 }
 
