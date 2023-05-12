@@ -2,8 +2,8 @@ import Navbar from '@/components/Navbar'
 import './globals.css'
 
 export const metadata = {
-  title: 'Ollies site',
-  description: 'First test',
+  title: 'Oliver Zott',
+  description: 'Personal website of Oliver Zott',
 }
 
 export default function RootLayout({ children, }: { children: React.ReactNode }) {

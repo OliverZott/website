@@ -17,8 +17,20 @@ body {
 .container {
   padding: 1rem 1rem;
   margin: 0rem 20%;
-  /* background-color: rgb(230, 230, 230); */
+  /* background-color: rgb(238, 238, 238); */
   text-align: center;
+}
+
+.container>img {
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+.container>h1 {
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.container>h2 {
+  padding: 2rem;
 }
 
 .topnav {
@@ -33,7 +45,7 @@ body {
 }
 
 .topnav>div {
-  background-color: #333;
+  background-color: #333333b6;
 }
 
 .topnav a {
@@ -51,6 +63,6 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6db4;
   color: white;
 }

@@ -7,36 +7,55 @@ export default function Hobbies() {
             <img className="bg-img" alt="mountain4_wide" src="/mountain4_wide.jpg" />
             <div className='container'>
                 <h1>What I do in my spare time</h1>
+
+
+                <h2>Hiking</h2>
+
+                <p>
+                    <q>Blaue Lacke </q>- Stubai Alps (2.2289m)
+                </p>
                 <Image
                     src="/hike.jpg"
                     width={600}
                     height={450}
                     alt="hike"
                 />
+
+                <p>Ben Vrackie - Scotland (841m)</p>
                 <Image
                     src="/hike2.jpg"
                     width={600}
                     height={651}
                     alt="hike2"
                 />
+
+
+                <h2>Mountainbike</h2>
                 <Image
                     src="/bike1.jpg"
                     width={600}
                     height={555}
                     alt="bike1"
                 />
+
+                <p>Carnic Alps - On the way to the Sillianer Hut (2.447m)</p>
                 <Image
                     src="/bike3.jpg"
                     width={600}
                     height={450}
                     alt="bike3"
                 />
+
+                <p>Nordkette - Innsbruck</p>
                 <Image
                     src="/bike2.jpg"
                     width={600}
                     height={800}
                     alt="bike2"
                 />
+
+                <h2>Skiing</h2>
+                <p>Mieming Range - On the way to the <q>Wankspitze</q> </p>
                 <Image
                     src="/ski1.jpg"
                     width={600}
