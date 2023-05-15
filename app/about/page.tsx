@@ -3,7 +3,7 @@
 export default function About() {
     return (
         <main>
-            <img alt="mountain3_wide" src="/mountain3_wide.jpg" className="bg-img" />
+            <img alt="mountain3_wide" src="/lacke.jpg" className="bg-img" />
             <div className='container'>
                 <h1 style={{ padding: '0 0 2rem 0' }}>About</h1>
 
