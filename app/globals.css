@@ -43,6 +43,10 @@ body {
   padding: 0 0 1rem;
 }
 
+.dist {
+  padding: 2rem 0 1rem
+}
+
 .topnav {
   position: fixed;
   width: 100vw;

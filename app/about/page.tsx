@@ -18,7 +18,12 @@ export default function About() {
                     <a href="https://github.com/OliverZott" target="_blank" rel="noopener noreferrer">https://github.com/OliverZott</a>
                 </p>
 
-                <b>sdf</b>
+                <h4 className="dist">Photos:</h4>
+                <p>Home: <q>Mieminger Kette - Hölltörl</q></p>
+                <p>Tech-Stack: Stubaier Alps - <q>Pfaffenhofer Alm</q></p>
+                <p>Hobbies: Ötztaler Alps - <q>Hintere Fundusalm</q> </p>
+                <p>About: Stubaier Alps - <q>Sulzenauhütte</q> </p>
+
             </div>
         </main>
     )
