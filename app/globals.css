@@ -7,7 +7,6 @@ body {
 
 .bg-img {
   width: 100%;
-  /* min-height: 300px; */
   max-height: 250px;
   object-fit: cover;
   /* object-fit: contain; */
@@ -19,18 +18,29 @@ body {
   margin: 0rem 20%;
   /* background-color: rgb(238, 238, 238); */
   text-align: center;
+  position: 'relative'
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0;
+  }
 }
 
 .container>img {
-  padding: 0rem 0rem 2rem 0rem;
+  padding: 0 0 2rem 0;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
 }
 
+
 .container>h1 {
-  padding: 0rem 0rem 0rem 0rem;
+  padding: 0 0 2rem;
 }
 
 .container>h2 {
-  padding: 2rem;
+  padding: 0 0 1rem;
 }
 
 .topnav {
@@ -45,8 +55,7 @@ body {
 }
 
 .topnav>div {
-  background-color: #333333b6;
-  margin-right: 16px
+  background-color: #333333d7;
 }
 
 .topnav a {
@@ -66,4 +75,33 @@ body {
 .topnav a.active {
   background-color: #04aa6db4;
   color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .topnav a {
+    padding: 8px 5px;
+  }
+}
+
+
+/* =========== column / rowlayout =========== */
+
+.flexbar {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10% 5%;
+}
+
+.flexbar-item {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbar-item img {
+  max-height: 100px;
 }
