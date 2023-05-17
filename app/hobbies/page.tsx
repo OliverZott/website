@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hobbies() {
     return (
         <main>
-            <img className="bg-img" alt="mountain4_wide" src="/m4.jpg" />
+            <img className="bg-img" alt="fundusalm" src="/fundusalm.jpg" />
             <div className='container'>
                 <h1>What I do in my spare time</h1>
 

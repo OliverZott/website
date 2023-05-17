@@ -40,7 +40,11 @@ body {
 }
 
 .container>h2 {
-  padding: 0 0 2rem;
+  padding: 0 0 1rem;
+}
+
+.dist {
+  padding: 2rem 0 1rem
 }
 
 .topnav {
@@ -81,4 +85,27 @@ body {
   .topnav a {
     padding: 8px 5px;
   }
+}
+
+
+/* =========== column / rowlayout =========== */
+
+.flexbar {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10% 5%;
+}
+
+.flexbar-item {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbar-item img {
+  max-height: 100px;
 }
