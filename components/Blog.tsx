@@ -1,5 +1,4 @@
 
-
 interface BlogProps {
     posts: {
         slug: string;
@@ -13,37 +12,25 @@ interface BlogProps {
 
 const Blog: React.FC<BlogProps> = ({ posts }) => {
 
-
-    function renderBlog(post: BlogProps) {
+    function renderBlog(post: any) {
         return (
             <div>
-                <h1>Blog</h1>
-                <p>Test</p>
-
-                <li key={post.slug}>
+                <div key={post.title}>
                     <h2>{post.title}</h2>
-                    <p>Date: {post.date}</p>
-                    <p>Author: {post.author}</p>
-                </li>
+                    <p>Author: {post.author}, Date: {post.date}</p>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                </div>
             </div>
         )
     }
-
 
     return (
         <main>
             <div>
                 <h1>Blog</h1>
-
-                <ul>
-                    {posts.map((post) => (
-                        <li key={post.slug}>
-                            <h2>{post.title}</h2>
-                            <p>Date: {post.date}</p>
-                            <p>Author: {post.author}</p>
-                        </li>
-                    ))}
-                </ul>
+                {posts.map((post) => (
+                    renderBlog(post)
+                ))}
 
             </div>
         </main>

@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 
 export default function TechStack() {
     return (
@@ -21,7 +20,7 @@ export default function TechStack() {
                         <img src="logos/ts.png" alt="typescript" title="TypeScript" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/c++.svg" alt="c++" title="C++" />
+                        <img src="logos/cpp.svg" alt="C++" title="C++" />
                     </div>
                 </div>
 
@@ -68,9 +67,6 @@ export default function TechStack() {
                     </div>
                     <div className="flexbar-item">
                         <img src="logos/sqlite.png" alt="SQLite" title="SQLite" />
-                    </div>
-                    <div className="flexbar-item">
-                        <img src="logos/datagrip.svg" alt="Data Grip" title="Data Grip" />
                     </div>
                 </div>
 
