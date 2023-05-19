@@ -31,6 +31,7 @@ export default function Hobbies() {
 
 
                 <h2>Mountainbike</h2>
+                <p>Stubai Alps - Tribulaun (2369m)</p>
                 <Image
                     src="/bike1.jpg"
                     width={600}

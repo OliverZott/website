@@ -21,11 +21,7 @@ body {
   position: 'relative'
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    margin: 0;
-  }
-}
+
 
 .container>img {
   padding: 0 0 2rem 0;
@@ -88,7 +84,7 @@ body {
 }
 
 
-/* =========== column / rowlayout =========== */
+/* =========== Pictures column / rowlayout =========== */
 
 .flexbar {
   display: flex;
@@ -96,7 +92,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0 10% 5%;
+  padding: 0 20% 5%;
 }
 
 .flexbar-item {
@@ -107,5 +103,22 @@ body {
 }
 
 .flexbar-item img {
-  max-height: 100px;
+  max-height: 75px;
+}
+
+
+/* =========== Mobile =========== */
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 0;
+  }
+
+  .bg-img {
+    min-height: 80px;
+  }
+
+  .flexbar {
+    padding: 0 10% 5%;
+  }
 }

@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "date": "12.3.2023",
+        "author": "Oliver Zott",
+        "title": "My dirst blog post"
+    },
+    "media": [
+        {
+            "picture-title": "First pic",
+            "picture-path": "./public/bike3"
+        }
+    ],
+    "content": "...Hello there, my first content here :)"
+}

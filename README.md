@@ -8,6 +8,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - Images [link](https://nextjs.org/docs/pages/api-reference/components/image)
 
+CHANGES 13.4
+
+- new: <https://nextjs.org/docs/app/building-your-application/data-fetching/fetching>
+- <https://nextjs.org/docs/pages/building-your-application/routing/custom-app>
+- old: <https://nextjs.org/learn/basics/data-fetching/implement-getstaticprops>
+- upgrade guide <https://nextjs.org/docs/app/building-your-application/upgrading>
+
 ## Getting Started
 
 First, run the development server:

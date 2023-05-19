@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "date": "15.3.2023",
+        "author": "Oliver Zott",
+        "title": "My second blog post"
+    },
+    "media": [
+        {
+            "picture-title": "second pic",
+            "picture-path": "./public/bike2"
+        }
+    ],
+    "content": "...Hello there, my SECOND content here :)"
+}
