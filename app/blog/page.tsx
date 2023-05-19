@@ -12,19 +12,13 @@ export default function Blogs() {
                 <h1>Blog</h1>
                 <Blog posts={posts} />
 
-
                 <main>
                     <div>
                         <h1>Blog</h1>
 
-                        {posts.map((post) => (
+                        {/* {posts.map((post) => (
                             <Blog posts={posts} />
-                            // <div key={post.title}>
-                            //     <h2>{post.title}</h2>
-                            //     <p>Date: {post.date}</p>
-                            //     <p>Author: {post.author}</p>
-                            // </div>
-                        ))}
+                        ))} */}
 
                     </div>
                 </main>
