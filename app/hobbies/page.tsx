@@ -12,7 +12,7 @@ export default function Hobbies() {
                 <h2>Hiking</h2>
 
                 <p>
-                    <q>Blaue Lacke </q>- Stubai Alps (2.2289m)
+                    <q>Blaue Lacke </q>- Stubai Alps (2.289m)
                 </p>
                 <Image
                     src="/hike.jpg"
@@ -31,7 +31,7 @@ export default function Hobbies() {
 
 
                 <h2>Mountainbike</h2>
-                <p>Stubai Alps - Tribulaun (2369m)</p>
+                <p>Stubai Alps - Tribulaun (2.369m)</p>
                 <Image
                     src="/bike1.jpg"
                     width={600}

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Blog from "@/components/Blog";
 import { getAllPosts } from "@/utils/ReadBlogs";
 
@@ -8,7 +9,8 @@ export default function Blogs() {
 
     return (
         <main>
-            <div>
+            <img className="bg-img" alt="fundusalm" src="/fundusalm.jpg" />
+            <div className='container'>
                 <h1>Blog</h1>
                 <Blog posts={posts} />
 
