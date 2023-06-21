@@ -4,7 +4,7 @@ import path from 'path';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
-// TODO: deserialize json string to blog-etity
+// TODO: deserialize json string to blog-entity
 //  - create blog entity
 //  - use serializer
 export function getAllPosts() {
@@ -24,11 +24,11 @@ export function getAllPosts() {
                 author: contentsObject.metadata.author,
                 slug: fileName.replace(/\.json$/, ''),
                 date: contentsObject.metadata.date,
-                content: contentsObject.content
+                content: contentsObject.content,
+                media: contentsObject.media,
             }
         })
     } catch (error) {
-        console.log("WTFFFFFFFFFFFF");
         console.error('Error reading blog post files:', error);
         console.log(error);
         return [];

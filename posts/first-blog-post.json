@@ -1,13 +1,21 @@
 {
     "metadata": {
-        "date": "12.3.2023",
-        "author": "Oliver Zott",
-        "title": "My dirst blog post"
+        "date": "29.5.2023",
+        "author": "Gurkos",
+        "title": "Gurkos auf Itaca"
     },
     "media": [
         {
-            "picture-title": "First pic",
-            "picture-path": "./public/bike3"
+            "title": "First pic",
+            "path": "/vacation/pic1.jpg"
+        },
+        {
+            "title": "Second pic",
+            "path": "/vacation/pic2.jpg"
+        },
+        {
+            "title": "Third pic",
+            "path": "/vacation/pic3.jpg"
         }
     ],
     "content": "...Hello there, my first content here :)"

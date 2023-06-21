@@ -1,8 +1,12 @@
-# Fooling around
+# Personal Website
 
-- <https://www.youtube.com/watch?v=zbYBgy_ChGY>
+## Run and Debug
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+```bash
+npm run dev
+```
+
+For debugging start Script: `Next.js: debug server-side` from VSCodes debug menu (launch.json)
 
 ## Remarks
 
@@ -15,8 +19,11 @@ CHANGES 13.4
 - old: <https://nextjs.org/learn/basics/data-fetching/implement-getstaticprops>
 - upgrade guide <https://nextjs.org/docs/app/building-your-application/upgrading>
 
+- Layout and pages: <https://www.youtube.com/watch?v=zbYBgy_ChGY>
+
 ## Getting Started
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 First, run the development server:
 
 ```bash

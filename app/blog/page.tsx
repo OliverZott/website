@@ -11,19 +11,18 @@ export default function Blogs() {
         <main>
             <img className="bg-img" alt="fundusalm" src="/fundusalm.jpg" />
             <div className='container'>
-                <h1>Blog</h1>
+                <h1>Vacation Blog</h1>
                 <Blog posts={posts} />
 
-                <main>
+                {/* <main>
                     <div>
                         <h1>Blog</h1>
 
-                        {/* {posts.map((post) => (
+                         {posts.map((post) => (
                             <Blog posts={posts} />
-                        ))} */}
-
+                        ))} 
                     </div>
-                </main>
+                </main> */}
             </div>
         </main>
     )
