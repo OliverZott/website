@@ -8,7 +8,13 @@ export default function Home() {
 
   return (
     <main>
-      <img className="bg-img" alt="mountain_wide" src="/hoell.jpg" />
+      <img
+        className="bg-img"
+        alt="mountain_wide"
+        src="/hoell.webp"
+        srcSet="/hoell.webp 1920w, /hoell-900.jpg 900w"
+        sizes="(max-width: 900px) 900px, 1920px"
+      />
       <div className='container'>
 
         {/* <Blog posts={posts} /> */}

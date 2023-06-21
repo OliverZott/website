@@ -3,7 +3,12 @@
 export default function About() {
     return (
         <main>
-            <img alt="mountain3_wide" src="/lacke.jpg" className="bg-img" />
+            <img
+                className="bg-img"
+                alt="mountain3_wide"
+                src="/lacke.webp"
+                srcSet="/lacke.webp 1920w, /lacke-900.webp 900w"
+            />
             <div className='container'>
                 <h1>About</h1>
 

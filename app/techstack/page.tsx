@@ -3,7 +3,12 @@
 export default function TechStack() {
     return (
         <main>
-            <img alt="mountain2_wide" src="/sonnkar.jpg" className="bg-img" />
+            <img
+                className="bg-img"
+                alt="mountain2_wide"
+                src="/sonnkar.webp"
+                srcSet="/sonnkar.webp 1920w, /sonnkar-900.jpg 900w"
+            />
             <div className='container'>
 
                 <h1>Tech Stack</h1>
