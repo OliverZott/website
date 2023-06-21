@@ -23,7 +23,7 @@ export default function Home() {
         <p style={{ padding: "0 0 2rem 0" }}>Just a little website to introduce myself. My name is <strong>Oliver</strong> and I am a <strong>Software Developer</strong> from Innsbruck (Austria).</p>
 
         <Image
-          src="/helm.jpg"
+          src="/helm.webp"
           width={420}
           height={300}
           alt="helm"
