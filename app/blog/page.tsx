@@ -9,7 +9,12 @@ export default function Blogs() {
 
     return (
         <main>
-            <img className="bg-img" alt="fundusalm" src="/fundusalm.jpg" />
+            <img
+                className="bg-img"
+                alt="fundusalm"
+                src="/fundusalm.webp"
+                srcSet="/fundusalm.webp 1920w, /fundusalm-900.webp 900w"
+            />
             <div className='container'>
                 <h1>Vacation Blog</h1>
                 <Blog posts={posts} />

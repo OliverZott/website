@@ -20,7 +20,8 @@ interface BlogProps {
     }[];
 }
 
-
+// TODO: iterate over images in media property
+// TODO: order blog posts by Creation date
 const Blog: React.FC<BlogProps> = ({ posts }) => {
 
     function renderBlog(post: any) {

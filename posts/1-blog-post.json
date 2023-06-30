@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "date": "25.5.2023",
+        "author": "Oliver Zott",
+        "title": "Sisia Beach"
+    },
+    "media": [
+        {
+            "title": "first pic",
+            "path": "/vacation/pic5.jpg"
+        },
+        {
+            "title": "second pic",
+            "path": "/vacation/pic1.jpg"
+        },
+        {
+            "title": "third pic",
+            "path": "/vacation/pic2.jpg"
+        }
+    ],
+    "content": ""
+}
