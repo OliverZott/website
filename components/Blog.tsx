@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
-import { title } from "process";
 
 
 interface BlogProps {
@@ -24,6 +23,7 @@ interface BlogProps {
 // TODO: order blog posts by Creation date
 const Blog: React.FC<BlogProps> = ({ posts }) => {
 
+
     function renderBlog(post: any) {
         console.log(post);
         return (
@@ -34,18 +34,25 @@ const Blog: React.FC<BlogProps> = ({ posts }) => {
                     <p>{post.content}</p>
 
 
-                    {/* <img className="bg-img" alt={post.media[1].title} src={post.media[1].path} /> */}
+                    {post.media.map((media: any) => (
+                        <div key={media.title}>
+                            <Image
+                                src={media.path}
+                                width={600}
+                                height={450}
+                                alt={media.title}
+                            />
+                        </div>
+                    ))}
 
-                    <Image
-                        src={post.media[0].path}
-                        width={600}
-                        height={450}
-                        alt={post.media[1].title}
-                    />
+
                 </div>
             </div>
         )
     }
+
+
+
 
     return (
         <main>
