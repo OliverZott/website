@@ -54,3 +54,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## TODO
+
+halloween theme:
+
+<https://www.freepik.com/ai-images-editor?prompt=generate+a+picture+halloween+theme+with+various+horror+movie+charecters%3A+mike+meyers%2C+json+vorhees%2C+hellraisers+pinnhead%2C+freddy+kruger.+size%3A1920x250&style=photo>
+
+- generate a picture halloween theme with several horror movie characters (Michael Myers, Jason Voorhees, Pinhead ,Freddy Krueger, IT Pennywise ) in the background and some spooky pumpkins:  size:1920x250
+
+- generate a picture Halloween theme with some spooky pumpkins, bats, fog a castle  and a full moon.
+
+- background color: #736b5e
+
+- voring part with session cookie

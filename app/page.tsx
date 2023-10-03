@@ -1,10 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image"
-import { getAllPosts } from "../utils/ReadBlogs"
-import Blog from "@/components/Blog";
 
 export default function Home() {
-  const posts = getAllPosts();
 
   return (
     <main>
