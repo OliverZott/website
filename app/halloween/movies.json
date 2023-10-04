@@ -9,12 +9,18 @@
         "title": "Trick ‘r Treat",
         "year": "2007",
         "trailer": "Pnlb6aTzsN4",
-        "genre": "Antholkogy"
+        "genre": "Anthology"
     },
     {
-        "title": "Frankenweenie ",
+        "title": "Frankenweenie",
         "year": "2012",
         "trailer": "29vIJQohUWE",
         "genre": "Animated"
+    },
+    {
+        "title": "The Cabin in the Woods",
+        "year": "2012",
+        "trailer": "NsIilFNNmkY",
+        "genre": "Horror"
     }
 ]
