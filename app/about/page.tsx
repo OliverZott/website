@@ -23,6 +23,11 @@ export default function About() {
                     <a href="https://github.com/OliverZott" target="_blank" rel="noopener noreferrer">https://github.com/OliverZott</a>
                 </p>
 
+                {/* <p>
+                    <strong>CV: </strong>
+                    <a href="/test.pdf" target="_blank">Open PDF</a>
+                </p> */}
+
                 <h4 className="dist">Photos:</h4>
                 <p>Home: <q>Mieminger Kette - Hölltörl</q></p>
                 <p>Tech-Stack: Stubaier Alps - <q>Pfaffenhofer Alm</q></p>
