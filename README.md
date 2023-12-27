@@ -8,6 +8,12 @@ npm run dev
 
 For debugging start Script: `Next.js: debug server-side` from VSCodes debug menu (launch.json)
 
+```bash
+# to check and update dependencies
+npm install -g npm-check
+npm-check -u # flag for interactive mode
+```
+
 ## Remarks
 
 - Images [link](https://nextjs.org/docs/pages/api-reference/components/image)
