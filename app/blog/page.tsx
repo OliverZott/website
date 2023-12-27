@@ -17,7 +17,7 @@ export default function Blogs() {
             />
             <div className='container'>
                 <h1>Vacation Blog</h1>
-                <Blog posts={posts} />
+                {/* <Blog posts={posts} /> */}
 
                 {/* <main>
                     <div>

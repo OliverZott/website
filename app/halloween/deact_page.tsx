@@ -27,7 +27,7 @@ export default function Halloween() {
                                 title={movie.title + " Trailer"}
                                 src={`https://www.youtube.com/embed/${movie.trailer}`}
                                 frameBorder="0"
-                                sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+                                sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-presentation"
                                 allowFullScreen
                             ></iframe>
                         </div>
