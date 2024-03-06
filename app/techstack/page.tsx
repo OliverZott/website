@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 
 export default function TechStack() {
     return (
@@ -77,7 +78,13 @@ export default function TechStack() {
 
                 <h1>Projects</h1>
                 <p>Under Construction</p>
-
+                {/* <img className="small-image" src="construction.jpg" alt="under construction" title="under construction" sizes="40" /> */}
+                <Image
+                    src="/construction.jpg"
+                    width={500}
+                    height={521}
+                    alt="under-construction"
+                />
             </div>
         </main>
     )

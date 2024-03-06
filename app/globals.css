@@ -35,6 +35,11 @@ img {
   max-width: 600px;
 }
 
+.small-image .container>img {
+  width: 20%;
+  height: 20%;
+  max-width: 300px;
+}
 
 .container>h1 {
   padding: 0 0 2rem;
