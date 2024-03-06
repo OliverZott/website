@@ -16,7 +16,7 @@ export default function About() {
 
                 <p>
                     <strong>E-Mail: </strong>
-                    <a href="mailto:csak1247@uibk.ac.at?subject=website&body=Message">csak1247@uibk.ac.at</a>
+                    <a href="mailto:zott_oliver@web.de?subject=website&body=Message">zott_oliver@web.de</a>
                 </p>
                 <p>
                     <strong>Github: </strong>
