@@ -12,7 +12,7 @@ export default function About() {
             <div className='container'>
                 <h1>About</h1>
 
-                <p>&copy; 2023 Oliver Zott</p>
+                <p>&copy; 2024 Oliver Zott</p>
 
                 <p>
                     <strong>E-Mail: </strong>

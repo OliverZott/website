@@ -26,8 +26,6 @@ img {
   position: 'relative'
 }
 
-
-
 .container>img {
   padding: 0 0 2rem 0;
   width: 100%;
@@ -53,6 +51,9 @@ img {
   padding: 2rem 0 1rem
 }
 
+
+/* ============================================ NAVBAR ============================================ */
+
 .topnav {
   position: fixed;
   width: 100vw;
@@ -73,7 +74,7 @@ img {
   float: left;
   color: #f2f2f2ce;
   text-align: center;
-  padding: 24px 46px;
+  padding: 14px 66px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -95,7 +96,7 @@ img {
 }
 
 
-/* =========== Pictures column / rowlayout =========== */
+/* ============================================ Pictures column / rowlayout ============================================ */
 
 .flexbar {
   display: flex;
@@ -118,7 +119,7 @@ img {
 }
 
 
-/* =========== Mobile =========== */
+/* ============================================ MOBILE ============================================ */
 
 @media screen and (max-width: 900px) {
   .container {
@@ -134,7 +135,8 @@ img {
   }
 }
 
-/* =========== Halloweeen page css =========== */
+
+/* ============================================ Halloweeen page ============================================ */
 
 .dark {
   background-color: #181614;
@@ -162,4 +164,46 @@ img {
   /* make the iframe take up the full width and height of its parent element */
   width: 100%;
   height: 100%;
+}
+
+
+/* ============================================ FOOTER ============================================ */
+
+.footer-container {
+  background-color: #7f7f7fd7;
+  padding: 0.5rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Use flexbox to align items */
+  display: flex;
+  /* Distribute space between items */
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5rem;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.about-link {
+  display: flex;
+  /* justify-content: flex-end; */
+  color: #ffffff;
+  margin-right: 5rem;
+  font-size: 18px;
+}
+
+.about-link a {
+  text-decoration: none;
+  color: #ffffff;
+  /* Additional styles for the "About" link if needed */
 }
