@@ -24,7 +24,7 @@ export default function Blogs() {
                         <h1>Blog</h1>
 
                         {posts.map((post) => (
-                            <Blog posts={posts} />
+                            <Blog key={post.slug} posts={posts} />
                         ))}
                     </div>
                 </main>
