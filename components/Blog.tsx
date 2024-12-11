@@ -28,14 +28,14 @@ const Blog: React.FC<BlogProps> = ({ posts }) => {
         console.log(post);
         return (
             <div>
-                <div key={post.title}>
+                <div key={post.slug}>
                     <h2>{post.title}</h2>
                     <p>Author: {post.author}, Date: {post.date}</p>
                     <p>{post.content}</p>
 
 
                     {post.media.map((media: any) => (
-                        <div key={media.title}>
+                        <div key={media.path}>
                             <Image
                                 src={media.path}
                                 width={600}
