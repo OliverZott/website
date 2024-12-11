@@ -1,5 +1,10 @@
 # Personal Website
 
+- [vercel](https://vercel.com/oliverzotts-projects)
+- [github-repo](https://github.com/OliverZott/website)
+- [github-project](https://github.com/users/OliverZott/projects/9)
+- [website-prod](https://oliver-zott.vercel.app/)
+
 ## Run and Debug
 
 ```bash
