@@ -19,20 +19,16 @@ interface BlogProps {
     }[];
 }
 
-// TODO: iterate over images in media property
 // TODO: order blog posts by Creation date
 const Blog: React.FC<BlogProps> = ({ posts }) => {
 
-
     function renderBlog(post: any) {
-        console.log(post);
         return (
             <div>
                 <div key={post.slug}>
                     <h2>{post.title}</h2>
                     <p>Author: {post.author}, Date: {post.date}</p>
                     <p>{post.content}</p>
-
 
                     {post.media.map((media: any) => (
                         <div key={media.path}>
@@ -51,14 +47,13 @@ const Blog: React.FC<BlogProps> = ({ posts }) => {
         )
     }
 
-
-
-
     return (
         <main>
             <div>
                 {posts.map((post) => (
-                    renderBlog(post)
+                    <div key={post.slug}>
+                        {renderBlog(post)}
+                    </div>
                 ))}
             </div>
         </main>

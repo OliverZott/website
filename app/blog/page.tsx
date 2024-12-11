@@ -5,7 +5,6 @@ import { getAllPosts } from "@/utils/ReadBlogs";
 export default function Blogs() {
 
     const posts = getAllPosts();
-    console.log(posts);
 
     return (
         <main>
@@ -18,16 +17,6 @@ export default function Blogs() {
             <div className='container'>
                 <h1>My Example Blog</h1>
                 <Blog posts={posts} />
-
-                <main>
-                    <div>
-                        <h1>Blog</h1>
-
-                        {posts.map((post) => (
-                            <Blog key={post.slug} posts={posts} />
-                        ))}
-                    </div>
-                </main>
             </div>
         </main>
     )
