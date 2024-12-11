@@ -17,17 +17,17 @@ export default function Blogs() {
             />
             <div className='container'>
                 <h1>My Example Blog</h1>
-                {/* <Blog posts={posts} /> */}
+                <Blog posts={posts} />
 
-                {/* <main>
+                <main>
                     <div>
                         <h1>Blog</h1>
 
-                         {posts.map((post) => (
+                        {posts.map((post) => (
                             <Blog posts={posts} />
-                        ))} 
+                        ))}
                     </div>
-                </main> */}
+                </main>
             </div>
         </main>
     )

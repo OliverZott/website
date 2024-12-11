@@ -17,16 +17,16 @@ export default function TechStack() {
                 <h2>Programming Languages</h2>
                 <div className="flexbar">
                     <div className="flexbar-item">
-                        <img src="logos/python.png" alt="python" title="Python" />
+                        <img src="logos/css.png" alt="css" title="C#" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/css.png" alt="css" title="C#" />
+                        <img src="logos/cpp.svg" alt="C++" title="C++" />
                     </div>
                     <div className="flexbar-item">
                         <img src="logos/ts.png" alt="typescript" title="TypeScript" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/cpp.svg" alt="C++" title="C++" />
+                        <img src="logos/python.png" alt="python" title="Python" />
                     </div>
                 </div>
 
