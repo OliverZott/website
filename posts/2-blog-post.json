@@ -1,22 +1,22 @@
 {
     "metadata": {
-        "date": "27.5.2023",
+        "date": "11.12.2024",
         "author": "Oliver Zott",
-        "title": "Fteri Beach"
+        "title": "Second Blog Post"
     },
     "media": [
         {
             "title": "first pic",
-            "path": "/vacation/pic4.jpg"
+            "path": "/bike/bike1.webp"
         },
         {
             "title": "second pic",
-            "path": "/vacation/pic1.jpg"
+            "path": "/bike/bike2.webpg"
         },
         {
             "title": "third pic",
-            "path": "/vacation/pic2.jpg"
+            "path": "/bike/bike3.webp"
         }
     ],
-    "content": ""
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 }

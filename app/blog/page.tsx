@@ -16,7 +16,7 @@ export default function Blogs() {
                 srcSet="/fundusalm.webp 1920w, /fundusalm-900.webp 900w"
             />
             <div className='container'>
-                <h1>Vacation Blog</h1>
+                <h1>My Example Blog</h1>
                 {/* <Blog posts={posts} /> */}
 
                 {/* <main>
