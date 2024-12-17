@@ -1,28 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
-
+import { BlogPost } from '../interfaces/BlogPost';
 
 interface BlogProps {
-    posts: {
-        slug: string;
-        title: string;
-        date: string;
-        author: string;
-        content: string;
-        media: [
-            {
-                path: string;
-                title: string;
-            }
-        ]
-    }[];
+    posts: BlogPost[];
 }
 
-// TODO: order blog posts by Creation date
 const Blog: React.FC<BlogProps> = ({ posts }) => {
 
-    function renderBlog(post: any) {
+    // Sort posts by date in descending order (newest first)
+    function parseDate(dateStr: string) {
+        const [day, month, year] = dateStr.split('.').map(Number);
+        return new Date(year, month - 1, day);
+    }
+    posts.sort((a, b) => parseDate(b.date).getTime() - parseDate(a.date).getTime());
+
+    function renderBlog(post: BlogPost) {
         return (
             <div>
                 <div key={post.slug}>
@@ -30,7 +24,7 @@ const Blog: React.FC<BlogProps> = ({ posts }) => {
                     <p>Author: {post.author}, Date: {post.date}</p>
                     <p>{post.content}</p>
 
-                    {post.media.map((media: any) => (
+                    {post.media.map((media) => (
                         <div key={media.path}>
                             <Image
                                 src={media.path}
@@ -40,7 +34,6 @@ const Blog: React.FC<BlogProps> = ({ posts }) => {
                             />
                         </div>
                     ))}
-
 
                 </div>
             </div>

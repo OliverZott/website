@@ -1,37 +1,37 @@
-import fs from 'fs'
+import fs from 'fs';
 import path from 'path';
-
+import { BlogPost } from '../interfaces/BlogPost';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
-// TODO: deserialize json string to blog-entity
-//  - create blog entity
-//  - use serializer
-export function getAllPosts() {
-
+export function getAllPosts(): BlogPost[] {
     try {
         const fileNames = fs.readdirSync(postsDirectory);
-        var blogPosts = [];
+        const blogPosts: BlogPost[] = [];
 
-        return fileNames.map((fileName) => {
+        fileNames.forEach((fileName) => {
             const filePath = path.join(postsDirectory, fileName);
             const fileContentsJsonString = fs.readFileSync(filePath, 'utf8');
-
             const contentsObject = JSON.parse(fileContentsJsonString);
 
-            return {
+            const blogPost: BlogPost = {
                 title: contentsObject.metadata.title,
                 author: contentsObject.metadata.author,
                 slug: fileName.replace(/\.json$/, ''),
                 date: contentsObject.metadata.date,
                 content: contentsObject.content,
-                media: contentsObject.media,
-            }
-        })
+                media: contentsObject.media.map((media: any) => ({
+                    path: media.path,
+                    title: media.title,
+                })),
+            };
+
+            blogPosts.push(blogPost);
+        });
+
+        return blogPosts;
     } catch (error) {
         console.error('Error reading blog post files:', error);
-        console.log(error);
         return [];
     }
-
 }
