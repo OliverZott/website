@@ -170,7 +170,7 @@ img {
 /* ============================================ FOOTER ============================================ */
 
 .footer-container {
-  background-color: #7f7f7fd7;
+  background-color: #82828245;
   padding: 0.5rem;
   text-align: center;
   position: fixed;
@@ -197,13 +197,13 @@ img {
 .about-link {
   display: flex;
   /* justify-content: flex-end; */
-  color: #ffffff;
+  color: #000000;
   margin-right: 5rem;
   font-size: 18px;
+  align-items: center;
 }
 
 .about-link a {
   text-decoration: none;
-  color: #ffffff;
-  /* Additional styles for the "About" link if needed */
+  color: #000000;
 }
