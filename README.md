@@ -8,7 +8,8 @@
 ## Run and Debug
 
 ```bash
-npm run dev
+npm run dev  # run dev server
+npm run lint # run eslint
 ```
 
 For debugging start Script: `Next.js: debug server-side` from VSCodes debug menu (launch.json)
