@@ -23,23 +23,26 @@ export default function TechStack() {
                         <img src="logos/cpp.svg" alt="C++" title="C++" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/ts.png" alt="typescript" title="TypeScript" />
+                        <img src="logos/ts.png" alt="TypeScript" title="TypeScript" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/python.png" alt="python" title="Python" />
+                        <img src="logos/python.png" alt="Python" title="Python" />
                     </div>
                 </div>
 
                 <h2>Frameworks</h2>
                 <div className="flexbar">
                     <div className="flexbar-item">
-                        <img src="logos/dotnet-logo.jpg" alt="python" title=".NET" />
+                        <img src="logos/dotnet-logo.jpg" alt=".NET" title=".NET" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/react.png" alt="ts" title="React" />
+                        <img src="logos/nodejs.png" alt="Node.js" title="Node.js" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/nextjs.webp" alt="css" title="NextJS" />
+                        <img src="logos/react.png" alt="React" title="React" />
+                    </div>
+                    <div className="flexbar-item">
+                        <img src="logos/nextjs.webp" alt="NextJS" title="NextJS" />
                     </div>
                 </div>
 
@@ -55,10 +58,10 @@ export default function TechStack() {
                         <img src="logos/azure_devops.png" alt="Azure DevOps" title="Azure DevOps" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/jb_beam.png" alt="JetBrains" title="JetBrains IDEs" />
+                        <img src="logos/jb_beam.png" alt="JetBrains IDEs" title="JetBrains IDEs" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/code.jpg" alt="vs code" title="Visual Studio Code / VS 2022" />
+                        <img src="logos/code.jpg" alt="Visual Studio Code / VS 2022" title="Visual Studio Code / VS 2022" />
                     </div>
                 </div>
 
