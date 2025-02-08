@@ -8,7 +8,7 @@ export default function TechStack() {
                 className="bg-img"
                 alt="mountain2_wide"
                 src="/sonnkar.webp"
-                srcSet="/sonnkar.webp 1920w, /sonnkar-900.jpg 900w"
+                srcSet="/sonnkar.webp 1920w, /sonnkar-900.webp 900w"
             />
             <div className='container'>
 

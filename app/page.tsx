@@ -11,7 +11,7 @@ export default function Home() {
         src="/hoell.webp"
         width={1920}
         height={1080}
-        // srcSet="/hoell.webp 1920w, /hoell-900.jpg 900w"
+        // srcSet="/hoell.webp 1920w, /hoell-900.webp 900w"
         sizes="(max-width: 900px) 900px, 1920px"
         layout="responsive"
       />
