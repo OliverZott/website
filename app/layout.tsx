@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -13,6 +14,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
       <body >
         <Navbar />
         {children}
+        <SpeedInsights />
         <Footer />
       </body>
     </html>
