@@ -20,11 +20,14 @@ export default function Hobbies() {
         setCurrentIndex(idx);
         setLightboxOpen(true);
     };
+
     const closeLightbox = () => setLightboxOpen(false);
+
     const showPrev = useCallback((e?: React.MouseEvent | KeyboardEvent) => {
         if (e && 'stopPropagation' in e) e.stopPropagation();
         setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
     }, []);
+
     const showNext = useCallback((e?: React.MouseEvent | KeyboardEvent) => {
         if (e && 'stopPropagation' in e) e.stopPropagation();
         setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
@@ -81,6 +84,7 @@ export default function Hobbies() {
                     <Image {...images[5]} />
                 </span>
             </div>
+
             {lightboxOpen && (
                 <div style={{
                     position: 'fixed',
@@ -100,6 +104,7 @@ export default function Hobbies() {
                     <button onClick={closeLightbox} style={{ position: 'absolute', top: 30, right: 30, fontSize: 32, color: '#fff', background: 'none', border: 'none', cursor: 'pointer' }}>&#10005;</button>
                 </div>
             )}
+
         </main>
     );
 }
