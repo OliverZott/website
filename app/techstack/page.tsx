@@ -39,7 +39,7 @@ export default function TechStack() {
                         <img src="logos/nodejs.png" alt="Node.js" title="Node.js" />
                     </div>
                     <div className="flexbar-item">
-                        <img src="logos/react.png" alt="React" title="React" />
+                        <img src="logos/vue.png" alt="React" title="React" />
                     </div>
                     <div className="flexbar-item">
                         <img src="logos/nextjs.webp" alt="NextJS" title="NextJS" />
