@@ -46,7 +46,7 @@ export default function About() {
                 </div>
 
                 <div className="dist">
-                    <p><strong>Last updated: </strong>2025-06-27</p>
+                    <p><strong>Last updated: </strong>2025-07-25</p>
                     <p><strong>Next.js version: </strong>{nextVersion}</p>
                 </div>
 
