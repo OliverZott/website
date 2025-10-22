@@ -20,6 +20,12 @@ npm install -g npm-check
 npm-check -u # flag for interactive mode
 ```
 
+## Linting
+
+- `npm init @eslint/config@latest`
+- `npm install jiti`
+- run linter `npm run lint`
+
 ## Remarks
 
 - Images [link](https://nextjs.org/docs/pages/api-reference/components/image)
