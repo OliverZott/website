@@ -1,11 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
+import packageJson from '../../package.json';
 
 export default function About() {
 
-    var packageJson = require('../../package.json');
-
     var nextVersion = packageJson.dependencies.next.slice(1,)
-    var version = packageJson.version;
 
     return (
         <main>

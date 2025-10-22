@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { BlogPost } from '../interfaces/BlogPost';
+import { BlogPost, Media } from '../interfaces/BlogPost';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
@@ -20,7 +20,7 @@ export function getAllPosts(): BlogPost[] {
                 slug: fileName.replace(/\.json$/, ''),
                 date: contentsObject.metadata.date,
                 content: contentsObject.content,
-                media: contentsObject.media.map((media: any) => ({
+                media: contentsObject.media.map((media: Media) => ({
                     path: media.path,
                     title: media.title,
                 })),
