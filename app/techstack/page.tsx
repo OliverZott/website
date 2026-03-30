@@ -75,6 +75,9 @@ export default function TechStack() {
                         <img src="logos/mongodb.webp" alt="MongoDB" title="MongoDB" />
                     </div>
                     <div className="flexbar-item">
+                        <img src="logos/mysql.svg" alt="MySQL" title="MySQL" />
+                    </div>
+                    <div className="flexbar-item">
                         <img src="logos/sqlite.png" alt="SQLite" title="SQLite" />
                     </div>
                 </div>
