@@ -4,16 +4,17 @@ export default function Home() {
 
   return (
     <main>
-      <Image
-        className="bg-img"
-        alt="mountain_wide"
-        src="/hoell.webp"
-        width={1920}
-        height={1080}
-        // srcSet="/hoell.webp 1920w, /hoell-900.webp 900w"
-        sizes="(max-width: 900px) 900px, 1920px"
-        layout="responsive"
-      />
+      <div className="bg-img-wrapper">
+        <Image
+          className="bg-img"
+          alt="mountain_wide"
+          src="/hoell.webp"
+          fill
+          style={{ objectFit: 'cover' }}
+          sizes="(max-width: 900px) 900px, 1920px"
+          loading="eager"
+        />
+      </div>
       <div className='container'>
 
         {/* <Blog posts={posts} /> */}
@@ -26,6 +27,7 @@ export default function Home() {
           width={420}
           height={300}
           alt="helm"
+          loading="eager"
         />
       </div>
     </main>

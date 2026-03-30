@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // your config here
+    turbopack: {
+        root: process.cwd()
+    }
 };
 
 export default nextConfig;
