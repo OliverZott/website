@@ -30,7 +30,7 @@ export default function TechStack() {
                     </div>
                 </div>
 
-                <h2>Frameworks</h2>
+                <h2>Runtimes & Frameworks</h2>
                 <div className="flexbar">
                     <div className="flexbar-item">
                         <img src="logos/dotnet-logo.jpg" alt=".NET" title=".NET" />
